@@ -1,0 +1,13 @@
+<html>
+    <body>
+        <p id="pTag">lorem</p>
+        <button id="btnChange">Change</button>
+        <script>
+            function changePTag () {
+                document.getElementById('pTag').innerHTML = 'Hello';
+            }
+            // add a event listener to the button
+            document.getElementById('btnChange').addEventListener('click', changePTag);
+        </script>
+    </body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="mx-auto bg-black">
+    <input class="border-4 rounded-md" id="pswdInputBox" placeholder="Enter Password">
+     <div class="" id="msgArea" class="" style="visibility:hidden">
+        <div id="msgAreaPswdLen">Password Length</div>
+        <div id="msgAreaPswdNC" >Password Number</div>
+        <div id="msgAreaPswdUC">Password Uppercase</div>
+        <div id="msgAreaPswdLC">Password Lowercase</div>
+        <div id="msgAreaPswdSC">Password Special Character</div>
+    </div>
+
+
+<br><br>
+    <input class="border-4 rounded-md" id="emailInputBox" placeholder="Enter Email">
+    <button class="border-4 rounded-md text-white" id="btnEmail" onclick="checkEmail()">Check Email</button>
+
+    <div id="msgAreaEmail" class="">
+        <div id="msgAreaEmailAT">Email AT</div>
+        <div id="msgAreaEmailDot">Email Dot</div>
+        <div id="msgAreaEmailLength">Email Length</div>
+        <div id="msgAreaEmailPublic">Email Public</div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
